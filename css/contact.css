@@ -1,0 +1,65 @@
+#title_page {
+	margin-top: 4rem;
+	margin-bottom: 5.7rem;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+}
+
+.contact {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-bottom: 5.7rem;
+}
+
+form {
+	border: 1px solid black;
+	padding: 2rem;
+	display: flex;
+	flex-direction: column;
+	width: 31rem;
+	gap: 1.3rem;
+}
+
+.nom_prenom {
+	display: flex;
+	gap: 6rem;
+}
+
+.champ {
+	display: flex;
+	flex-direction: column;
+	gap: 1rem;
+}
+
+input,
+textarea,
+select {
+	background-color: transparent;
+	border: none;
+	border-bottom: 1px solid #ccc;
+	padding: 1.3rem 0;
+	font-size: 1rem;
+	outline: none;
+	width: 100%;
+	transition: 0.3s;
+}
+
+.bouton_envoyer {
+	display: flex;
+	justify-content: center;
+}
+
+button {
+	padding: 1.1rem 4rem 1.1rem;
+	border: 1px solid black;
+	background: none;
+}
+
+button:hover {
+	transition: 1s;
+	background-color: #f9b233;
+}
